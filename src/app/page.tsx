@@ -1,11 +1,5 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
-
-import React from "react";
-import { Checkbox } from "@/components/ui/checkbox";
-import { makeData } from "./makeData";
 import Link from "next/link";
 
 export default function Home() {

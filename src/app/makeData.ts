@@ -1,5 +1,5 @@
 import { faker } from "@faker-js/faker";
-
+/* eslint-disable */
 export type Person = {
   firstName: string;
   lastName: string;
