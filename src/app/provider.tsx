@@ -30,8 +30,6 @@ export default function Providers({
   locale,
   messages,
 }: IProvidersProps) {
-  console.log("locale", locale);
-  console.log("messages", messages);
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
       {/* <ReduxProvider> */}

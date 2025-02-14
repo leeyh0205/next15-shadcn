@@ -1,10 +1,10 @@
 "use client";
-
 import { useTranslations } from "next-intl";
 import React from "react";
 
 const Mainpage = () => {
   const t = useTranslations("dashboard");
+  console.log("t", t("title"));
   return (
     <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
       {/* <div className="grid auto-rows-min gap-4 md:grid-cols-3">

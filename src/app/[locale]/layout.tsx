@@ -11,7 +11,6 @@ const LocaleLayout = async ({
   children: React.ReactNode;
   params: { locale: string };
 }) => {
-  // console.log("params", params.locale);
   const { locale } = await params;
   // Ensure that the incoming `locale` is valid
   if (!routing.locales.includes(locale as "ko" | "en")) {
